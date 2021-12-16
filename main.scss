@@ -528,12 +528,21 @@ html{
           font-size: 1.6rem;
           font-weight: 400;
           color: $text-color;
+          cursor: pointer;
+          &:hover{
+            color: $red;
+          }
           &:nth-child(1){
             font-weight: 600;
             font-size: 1.8rem;
             line-height: 2rem;
             color: $heading-color;
             margin-bottom: 3rem;
+            cursor: pointer;
+            &:hover{
+              color: $red;
+              transition: 0.3s linear;
+            }
           }
         }
       }
@@ -544,13 +553,23 @@ html{
           font-weight: 400;
           color: $text-color;
           line-height: 2.6rem;
+          cursor: pointer;
+          &:hover{
+            color: $red;
+            transition: 0.3s linear;
+          }
           &:nth-child(1){
             font-weight: 600;
             font-size: 1.8rem;
             line-height: 2rem;
             color: $heading-color;
             margin-bottom: 3rem;
+            &:hover{
+            color: $red;
+            transition: 0.3s linear;
+            }
           }
+          
         }
       }
     }
@@ -563,6 +582,11 @@ html{
         font-weight: 400;
         line-height: 2.4rem;
         color: $text-color;
+        cursor: pointer;
+        &:hover{
+            color: $red;
+            transition: 0.3s linear;
+          }
       }
       .footer_text-2{
         display: flex;
@@ -574,6 +598,11 @@ html{
           font-weight: 400;
           line-height: 2.4rem;
           color: $text-color;
+          cursor: pointer;
+          &:hover{
+            color: $red;
+            transition: 0.3s linear;
+          }
         }
         
       }
